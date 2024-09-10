@@ -1,0 +1,40 @@
+ /* @media screen and (max-width: 1200px) {
+    .header-items input{
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .input-block {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-right: 10px;
+    }
+    
+    .header-items button{
+        width: 240px;
+    }
+
+    .checkbtn{
+        display: inline-block;
+        position: relative;
+        left: 30px;
+        color: black;
+    }
+
+    .header-items{
+        display: flex;        
+        padding: 10px 0;
+    }
+
+    .more, .header-img, .my-page, button{
+        display: none;
+    }
+    
+    #check:checked ~ .navbar{
+        left: 0;
+    }
+} */

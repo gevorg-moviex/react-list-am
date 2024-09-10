@@ -1,0 +1,22 @@
+@media screen and (max-width: 880px) {
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        padding: 15px 100px;
+    }
+
+    .footer-2 ul{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer{
+        padding: 15px 30px;
+    }
+}
